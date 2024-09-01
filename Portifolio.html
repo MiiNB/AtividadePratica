@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #311b92;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #311b92;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #02ee70;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #616161 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #02ee70;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+        .bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: #311b92;
+}
+p {
+
+    text-align: center;
+}
+.texto{
+    justify-content: center;
+}
+.site a {
+    border: 1px;
+}
+.site a:link{
+    padding: 1px 5px;
+}
+
+.site p {
+ color: #311b92;
+}
+
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Meu vindo ao meu site!</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="Formacao.html">Formação</a></li>
+            <li><a href="Portifolio.html">Portifolio</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+             <section class="principal">
+            <h1>
+                Meu Portifolio
+            </h1>
+           <div class="Portifolio">
+            <div>   
+                <div class="logo">
+                    <img src="https://www.nicepng.com/png/detail/276-2762041_red-velvet-symbol-kpop.png" width="400"/>
+                </div>
+            </div>
+              
+            <div class="main">
+             <h1>Discografia</h1><hr/>    
+                    
+            <h2 style="font-family: cursive;color: red;" id="Perfect">The Perfect Red Velvet</h2>  
+                <p>
+                     <b>The Perfect Red Velvet</b> é a reedição de Perfect Velvet, segundo álbum de estúdio do grupo feminino sul-coreano Red Velvet, lançado em novembro de 2017.
+                      A reedição foi lançada em 29 de janeiro de 2018 pela S.M. Entertainment com a faixa-título "Bad Boy", que foi produzida pela equipe de produção americana The Stereotypes, que trabalhou anteriormente com o grupo em uma música do álbum original.
+                      O álbum também contém duas novas faixas, que incorporam estilos R&B e disco retrô, juntamente com todas as faixas do Perfect Velvet.
+                      Os críticos elogiaram o grupo por retratar mulheres poderosas e tentar um conceito sexy pela primeira vez desde sua estreia em "Bad Boy". Eles também elogiaram as músicas adicionadas ao álbum por sua vibe retrô.
+                       A Billboard fez referência ao conceito dual do grupo e chamou o álbum e o single "representantes gerais" de seu lado "velvet".O álbum liderou o Gaon Album Chart, da Coreia do Sul, e "Bad Boy" estreou em segundo lugar na tabela digital da Gaon.
+                       The Perfect Red Velvet também alcançou o terceiro lugar na parada mundial de álbuns da Billboard, enquanto "Bad Boy" alcançou a segunda posição na parada World Digital Songs. "Bad Boy" também se tornou o primeiro lançamento do grupo a se apresentar no Canadian Hot 100.
+                </p>
+                <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/b/b2/Red_Velvet_The_Perfect_Red_Velvet_cover.jpg/220px-Red_Velvet_The_Perfect_Red_Velvet_cover.jpg" alt="The Perfect Red Velvet">
+            <figcaption>Album Perfect Red Velvet</figcaption>
+                    </figure>   
+                    <p>Bad Boy<br>
+                    All Right<br>
+                    Peek-A-Boo<br>
+                    Look<br>
+                    I Just<br>
+                    Kingdom Come<br>
+                    Time To Love<br>
+                    My Second Date<br>
+                    Attaboy<br>
+                    Perfect 10<br>
+                    About Love<br>
+                    Moonlight Melody<br>
+                </p>
+          <iframe  width="560" height="315" src="https://www.youtube.com/embed/6uJf2IT2Zh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" id="Peek" allowfullscreen></iframe>
+            <hr/>
+            <h2 style="font-family: cursive;color: rgb(15, 241, 204);" id="ReVe">The ReVe Festival: Finale</h2>
+            <p>
+                <b>The ReVe Festival: Finale</b> é o primeiro álbum de compilação do grupo feminino sul-coreano Red Velvet. O álbum foi lançado em 23 de dezembro de 2019 pela SM Entertainment. O álbum foi anunciado e ficou disponível para pré-venda em 12 de dezembro de 2019, antes de ser lançado pela SM Entertainment em 23 de dezembro de 2019, com a Dreamus atuando como distribuidora da Coreia do Sul. Como o terceiro e último lançamento da trilogia The ReVe Festival, o álbum contém dezesseis faixas, incluindo quatro novas faixas, e todas as faixas do The ReVe Festival: Day 1 e The ReVe Festival: Day 2. Com o fundador da SM, Lee Soo-man, como produtor executivo, Finale inclui quatro novas músicas - "Psycho", "In & Out", "Remember Forever" e a inédita "La Rouge", com a primeira sendo o single do álbum (e posteriormente o terceiro e último single da trilogia). O álbum foi lançado em duas versões com ilustrações de pacotes diferentes, enquanto um EP digital incluindo apenas as quatro novas faixas também foi lançado na mesma data.
+            </p>
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/9/98/The_ReVe_Festival_-_Finale.jpg/220px-The_ReVe_Festival_-_Finale.jpg" alt="Album The ReVe Festival">
+            <figcaption>Album The ReVE Festival Finale</figcaption>
+        </figure>
+           <p>Psycho<br>
+            In & Out<br>
+            Remember Forever<br>
+            Eyes Locked,Hands Locked<br>
+            Ladies Night<br>
+            Jumpin<br>
+            Loves is the Way<br>
+            Carpool<br>
+            Umpah Umpah<br>
+            LP<br>
+            Parade<br>
+            Bing Bing<br>
+            Milkshake<br>
+            Sunny Side Up!<br>
+            Zimzalabim<br>
+            La Rouge<br>
+            </p>
+            <div class="container">
+        <iframe width="560" height="315"  src="https://www.youtube.com/embed/Z7yNvMzz2zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" id="Psycho" allowfullscreen></iframe>
+            </div>
+            </div>
+           </div>
+           <hr>
+           <div class="site">
+            <p><b>No Github tem amostra completa!</b><br>
+            <a href="https://github.com/MiiNB" target="_blank">Meu Github!</a>
+            </p>
+           </div>
+    <footer class="container">
+        <h2>Este site foi desenvolvido como parte do trabalho para a disciplina Aplicações web e móveis do curso de Engenharia de Software na Uninter</h2>
+    </footer>
+    </div>
+</body>
+
+</html>

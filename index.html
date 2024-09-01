@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática</title>
+    <style>
+        body {
+            margin: 0;
+            
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #311b92;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+           
+           background-color: #311b92;
+           color: white;
+           text-align: center;
+           margin: 300px 0 0 0;
+               
+       }
+
+        ul {
+            list-style-type: none;
+            color: #02ee70;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #616161 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #02ee70;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+        
+        h1 {
+            color: #02ee70;
+            text-align: center;
+        }
+        p {
+            color: #311b92;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-size: 15px;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Meu vindo ao meu site!</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="Formacao.html">Formação</a></li>
+            <li><a href="Portifolio.html">Portifolio</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+             <section class="principal">
+            <h1>
+                Sobre mim
+            </h1>
+            <p><b>
+                Olá me chamo Yasmin, e estou cursando Engenharia de software, na universidade Uninter.
+                Atualmente não estou trabalhando no momento. Mas tenho interesse, em trabalhar com front-end, esse interesse
+                surgiu após o lançamento da disciplina aplicações web e móveis. Eu também gostei da matéria de banco de dados, então, 
+                espero futuramente, ser uma profissional full-stack.<br>  
+                  No meu tempo livre, sempre reservo para um tempo de leitura, se o dia for muito agitado, no final do dia, eu jogo
+                alguma coisa no computador. Único hábito que possuo é ir na academia, vou 6 dias da semana, recentemente comecei outra modalidade
+                o Crossfit, estou gostando bastante, tenho interesse em outros esportes também, mas por enquanto, só pratico esses.<br>
+                Outras coisas que eu faço, mas não todo dia, uma vez ou outra, é assistir série, sempre tento procurar algo na Netflix. Gosto 
+                de assistir filmes de terror, Truecrime. E uns Doramas pra quebra a rotina do terror.<br>
+                Gosto de animais também, tenho gatos, e eles fazem companhia quando estou no computador ou dormindo.
+                  </b></p>
+    </div>
+    <footer class="container">
+        <h2>Este site foi desenvolvido como parte do trabalho para a disciplina Aplicações web e móveis do curso de Engenharia de Software na Uninter</h2>
+    </footer>
+    </div>
+</body>
+
+</html>

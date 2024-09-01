@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática</title>
+    <style>
+        body {
+        margin: 0;
+                       }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #311b92;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+           
+            background-color: #311b92;
+            color: white;
+            text-align: center;
+            margin: 300px 0 0 0;
+                
+        }
+
+        ul {
+            list-style-type: none;
+            color: #02ee70;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #616161 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #02ee70;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+                    }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: #02ee70; text-align: center;">Contato</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="Formacao.html">Formação</a></li>
+            <li><a href="Portifolio.html">Portifolio</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    
+             <section class="principal">
+            <h1>
+                Entre em Contato!
+            </h1>
+             </section>
+    <section>       
+    
+        <form action="/submit" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+             <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Escreva sua mensagem aqui..."></textarea>
+
+
+            
+        
+            <input type="submit" value="Enviar">
+          </form>
+             </section>
+     <footer class="container">
+        <h1>Este site foi desenvolvido como parte do trabalho para a disciplina Aplicações web e móveis do curso de Engenharia de Software na Uninter</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
